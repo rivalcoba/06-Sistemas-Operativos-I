@@ -5,7 +5,10 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js 1",
+    "start": "pr01 && pr02 && pr03",
+    "pr01": "node index.js 1",
+    "pr02": "node index.js 2",
+    "pr03": "node index.js 3",
     "dev": "node --watch index.js 1"
   },
   "repository": {
